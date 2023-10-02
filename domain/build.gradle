@@ -1,0 +1,9 @@
+
+plugins {
+    id 'domain-configuration'
+}
+
+dependencies {
+    implementation 'org.springframework:spring-context:6.0.12'
+    implementation 'org.apache.commons:commons-lang3:3.13.0'
+}
