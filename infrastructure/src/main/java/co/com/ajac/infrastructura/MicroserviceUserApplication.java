@@ -3,10 +3,12 @@ package co.com.ajac.infrastructura;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-public class ReferenceArchituretureApplication {
+@ComponentScan("co.com.ajac")
+public class MicroserviceUserApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ReferenceArchituretureApplication.class, args);
+        SpringApplication.run(MicroserviceUserApplication.class, args);
     }
 }

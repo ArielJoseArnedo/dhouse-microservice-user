@@ -1,7 +1,8 @@
 plugins {
     id 'application-configuration'
+    id 'java-library'
 }
 
 dependencies {
-    implementation project(':domain')
+    api project(':domain')
 }
